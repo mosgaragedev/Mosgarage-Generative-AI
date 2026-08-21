@@ -4,7 +4,7 @@ WORKDIR /app
 # Install dependencies
 FROM base AS deps
 COPY package*.json ./
-COPY packages/Mosgatage/vibe-Workflow/packages/workflow-builder/package*.json ./packages/Vibe-Workflow/packages/workflow-builder/
+COPY packages/Mosgarage/vibe-Workflow/packages/workflow-builder/package*.json ./packages/Vibe-Workflow/packages/workflow-builder/
 COPY packages/Mosgarage/packages/agents/package*.json ./packages/Open-Poe-AI/packages/agents/
 COPY packages/Mosgarage/packages/design-agent/package*.json ./packages/Mosgarage/packages/design-agent/
 COPY packages/studio/package*.json ./packages/studio/
